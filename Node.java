@@ -1,18 +1,24 @@
-package Project2;
+package Project3;
 
 public class Node {
-
-	public String name;
-	public String manager;
-	public Node next;
+	
+	String name;
+	String department;
+	Node left;
+	Node right;
 	
 	public Node(){
-		this.name = null;
-		this.manager = null;
+	
 	}
 	
-	public Node(String name, String manager) {
+	public Node(String name){
 		this.name = name;
-		this.manager = manager;
+	}
+	
+	public Node(String name, String department){
+		this.name = name;
+		this.department = department;
+		this.left = null;
+		this.right = null;
 	}
 }

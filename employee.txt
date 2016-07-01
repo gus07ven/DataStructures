@@ -1,0 +1,9 @@
+Betty	Sam
+Bob		Sally
+Dilbert	Nathan
+Joseph	Sally
+Nathan 	Veronica
+Sally	Veronica
+Sam		Joseph
+Susan	Bob
+Veronica 
